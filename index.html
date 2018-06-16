@@ -85,97 +85,7 @@
 
     <section class="p-0" id="portfolio">
       <div class="container-fluid p-0">
-        <div class="row no-gutters popup-gallery">
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    AUG 2015
-                  </div>
-                  <div class="project-name">
-                    Cinema 4D
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    AUG 2015
-                  </div>
-                  <div class="project-name">
-                    Cinema 4D
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    SEP 2015
-                  </div>
-                  <div class="project-name">
-                    Cinema 4D
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    OCT 2015
-                  </div>
-                  <div class="project-name">
-                    Cinema 4D
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    OCT 2015
-                  </div>
-                  <div class="project-name">
-                    Cinema 4D
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    NOV 2015
-                  </div>
-                  <div class="project-name">
-                    Cinema 4D
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
+        <div class="row no-gutters popup-gallery" id="portfolio-fill">
         </div>
       </div>
     </section>
@@ -217,6 +127,75 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/creative.min.js"></script>
+
+    <script>
+    var imageList = [
+      {time: "OCT 2015", info: "Cinema 4D"}, //0 index; 1.jpg
+      {time: "OCT 2015", info: "Cinema 4D"},
+      {time: "OCT 2015", info: "Cinema 4D"},
+      {time: "OCT 2015", info: "Cinema 4D"},
+      {time: "OCT 2015", info: "Cinema 4D"},
+      {time: "OCT 2015", info: "Cinema 4D"},
+      {time: "OCT 2015", info: "Cinema 4D"},
+      {time: "OCT 2015", info: "Cinema 4D"},
+      {time: "OCT 2015", info: "Cinema 4D"},
+      {time: "OCT 2015", info: "Cinema 4D"},
+      {time: "OCT 2015", info: "Cinema 4D"},
+      {time: "OCT 2015", info: "Cinema 4D"},
+      {time: "OCT 2015", info: "Cinema 4D"},
+      {time: "OCT 2015", info: "Cinema 4D"},
+      {time: "OCT 2015", info: "Cinema 4D"},
+      {time: "OCT 2015", info: "Cinema 4D"},
+      {time: "OCT 2015", info: "Cinema 4D"},
+      {time: "OCT 2015", info: "Cinema 4D"},
+      {time: "OCT 2015", info: "Cinema 4D"},
+      {time: "OCT 2015", info: "Cinema 4D"},
+      {time: "OCT 2015", info: "Cinema 4D"},
+      {time: "OCT 2015", info: "Cinema 4D"},
+      {time: "OCT 2015", info: "Cinema 4D"},
+      {time: "OCT 2015", info: "Cinema 4D"},
+      {time: "OCT 2015", info: "Cinema 4D"},
+      {time: "OCT 2015", info: "Cinema 4D"},
+      {time: "OCT 2015", info: "Cinema 4D"},
+      {time: "OCT 2015", info: "Cinema 4D"},
+      {time: "OCT 2015", info: "Cinema 4D"},
+      {time: "OCT 2015", info: "Cinema 4D"},
+      {time: "OCT 2015", info: "Cinema 4D"},
+      {time: "OCT 2015", info: "Cinema 4D"},
+      {time: "OCT 2015", info: "Cinema 4D"},
+      {time: "OCT 2015", info: "Cinema 4D"},
+      {time: "OCT 2015", info: "Cinema 4D"},
+      {time: "OCT 2015", info: "Cinema 4D"},
+      {time: "OCT 2015", info: "Cinema 4D"},
+      {time: "OCT 2015", info: "Cinema 4D"},
+      {time: "OCT 2015", info: "Cinema 4D"},
+      {time: "OCT 2015", info: "Cinema 4D"},
+      {time: "OCT 2015", info: "Cinema 4D"},
+      {time: "OCT 2015", info: "Cinema 4D"}, //41 index; 42.jpg
+    ];
+    var dPortfolio = document.getElementById("portfolio-fill")
+
+    for (var i = 0; i < 42; i++) {
+      var temp = '';
+      temp += '<div class="col-lg-4 col-sm-6">\n';
+      temp += '<a class="portfolio-box" href="img/portfolio/fullsize/' + [i+1] + '.jpg">\n';
+      temp += '<img class="img-fluid" src="img/portfolio/thumbnails/' + [i+1] + '.jpg" alt="">\n';
+      temp += '<div class="portfolio-box-caption">\n';
+      temp += '<div class="portfolio-box-caption-content">\n';
+      temp += '<div class="project-category text-faded">\n';
+      temp += imageList[i].time + '\n';
+      temp += '</div>\n';
+      temp += '<div class="project-name">\n';
+      temp += imageList[i].info + '\n';
+      temp += '</div>\n';
+      temp += '</div>\n';
+      temp += '</div>\n';
+      temp += '</a>\n';
+      temp += '</div>\n';
+      dPortfolio.insertAdjacentHTML('beforeend', temp);
+    }
+
+    </script>
 
   </body>
 
